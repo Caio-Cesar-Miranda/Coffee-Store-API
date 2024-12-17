@@ -1,0 +1,29 @@
+.coffee-item{
+    margim-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.coffee-title{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.coffee.desc{
+    font-size: 1em;
+    color: #555;
+}
+
+.coffee-price{
+    font-size: 1.2em;
+    color: #2d6a4f;
+}
+
+.coffee-image {
+    width: 300px;           
+    height: 400px;          
+    object-fit: cover;     
+    border-radius: 5px;    
+}
