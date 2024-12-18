@@ -30,10 +30,7 @@ function renderCoffeeList(){
         .then(response => response.json())
         .then(data => {
             const coffeeContainer = document.createElement('div');
-            coffeeContainer.style.display = 'flex';
-            coffeeContainer.style.flexWrap = 'wrap';
-            coffeeContainer.style.gap = '20px';
-            coffeeContainer.style.margin = '20px';
+            coffeeContainer.classList.add('coffee-container');
         
         
         data.forEach(coffee => {
